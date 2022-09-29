@@ -1,10 +1,10 @@
 def credential = 'appserver'
 def userdock = 'menther'
 def server = 'menther@10.36.116.205'
-def directory = 'literature-backtend'
-def url = 'https://github.com/frenkyst/literatur-backtend.git'
+def directory = 'literature-backend'
+def url = 'https://github.com/frenkyst/literatur-backend.git'
 def branch = 'Production'
-def image = 'literature-backtend'
+def image = 'literature-backend'
 
 pipeline{
   agent any
