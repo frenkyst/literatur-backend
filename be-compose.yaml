@@ -1,0 +1,11 @@
+version : '3.8'
+services:
+
+  backend:
+    build: .
+    image: menther/literature-backend:latest
+    container_name : backend
+    restart: unless-stopped
+    stdin_open : true
+    ports:
+     - 5000:5000
