@@ -9,3 +9,11 @@ services:
     stdin_open : true
     ports:
      - 5000:5000
+  backend1:
+    build: .
+    image: menther/literature-backend:latest
+    container_name : backend1
+    restart: unless-stopped
+    stdin_open : true
+    ports:
+     - 5001:5001
